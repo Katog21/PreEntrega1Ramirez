@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: 'red';
+    color: blueviolet;
+    font-size: 2rem;
+
+}
+
+.link {
+  display: flex;
+  justify-content: end;
+  color: blue;
+  margin: 3rem;
+    
+}
