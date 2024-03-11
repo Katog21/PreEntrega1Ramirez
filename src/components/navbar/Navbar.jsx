@@ -3,17 +3,15 @@ import Button from '../Button/Button'
 import CartWidget from '../CartWidget/CartWidget'
 
 const Navbar = () => {
-    return(
+    return (
         <header className='header'>
-        <h5>KATOS GROSERIES</h5>
-
-        <nav className='link'>
-        <Button text="Title" textColor = "white" className=' m-2 btn btn-primary'/>
-        <Button text="Title" textColor = "yellow" className=' m-2 btn btn-primary'/>
-        <Button text="Title"textColor = "white" className=' m-2 btn btn-primary'/>
+        <h5>Tienda Ecommercer</h5>
+        <nav>
+            <a>Cafeteria</a>
+            <a>Pasteleria</a>
+            <a>Empanadas</a>
         </nav>
-        
-        <CartWidget/>
+            <CartWidget />
         </header>
     )
 }

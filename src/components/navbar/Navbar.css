@@ -1,11 +1,8 @@
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: 'red';
-    color: blueviolet;
-    font-size: 2rem;
-
+    
 }
 
 .link {
